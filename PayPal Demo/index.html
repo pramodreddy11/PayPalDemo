@@ -1,0 +1,257 @@
+<html>
+<head>
+    <title>PayPal Demo</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel = "stylesheet"
+   type = "text/css"
+   href = "./css/PayPal.css" />
+
+<!-- JS, Popper.js, and jQuery -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+<script src="./js/Paypal.js"></script>
+</head>
+
+<!-- NavBar-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top ">
+        <div class="container">
+          <a class="navbar-brand" href="#"><img src="https://www.paypalobjects.com/digitalassets/c/website/logo/full-text/pp_fc_hl.svg" height="55px"  width="130px"/></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample07" aria-controls="navbarsExample07" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+      
+          <div class="collapse navbar-collapse" id="navbarsExample07">
+            <ul class="navbar-nav ml-auto" >
+              
+              <li class="nav-item dropdown  m-7">
+                <a class="nav-link dropdown-toggle fontstyle" href="#" id="INDIVIDUAL" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">INDIVIDUAL</a>
+                <div class="dropdown-menu" aria-labelledby="INDIVIDUAL">
+                  <a class="dropdown-item" href="#">Action</a>
+                  <a class="dropdown-item" href="#">Another action</a>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </div>
+              </li>
+              <li class="nav-item dropdown m-7">
+                <a class="nav-link dropdown-toggle fontstyle" href="#" id="BUISNESS" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">BUISNESS</a>
+                <div class="dropdown-menu" aria-labelledby="BUISNESS">
+                  <a class="dropdown-item" href="#">Action</a>
+                  <a class="dropdown-item" href="#">Another action</a>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </div>
+              </li>
+              <li class="nav-item dropdown m-7">
+                <a class="nav-link dropdown-toggle fontstyle" href="#" id="PATNERS" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">PATNERS</a>
+                <div class="dropdown-menu" aria-labelledby="PATNERS">
+                  <a class="dropdown-item" href="#">Action</a>
+                  <a class="dropdown-item" href="#">Another action</a>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </div>
+              </li>
+              <li class="nav-item dropdown m-7">
+                <a class="nav-link dropdown-toggle fontstyle" href="#" id="USEFUL" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">USEFUL INFO</a>
+                <div class="dropdown-menu" aria-labelledby="USEFUL">
+                  <a class="dropdown-item" href="#">Action</a>
+                  <a class="dropdown-item" href="#">Another action</a>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </div>
+              </li>
+            </ul>
+            <form class="form-inline m-8 my-2 my-md-0">
+               <button class="btn btn-outline-primary">Login</button>
+              </form>
+              <form class="form-inline ml-2 my-2 my-md-0 d-xl-block d-none ">
+                <button class="btn  btn-primary">SignUp</button>
+               </form>
+              
+
+          </div>
+        </div>
+      </nav>
+ 
+   <!-- Section1 Body -->
+      <div class="bg-home pt-8 ">
+        <div class="d-flex justify-content-center"><h1 style="color:#fff">Take care of you and yours at home, and</h1></div>
+        <div class="d-flex justify-content-center"><h1  style="color:#fff">we can take care of you online.</h1></div>
+        <div class="d-flex justify-content-center mt-3"><button class="btn btnSignUp btn-light"> Sign Up For Free   </button></div>
+
+         
+        <div class="d-flex justify-content-center mt-5 pt-5 ">
+            <div><img src="https://www.paypalobjects.com/marketing/web/in/home/everyday-essentials/shopping.png" height="200px" width="200px"/></div>
+            <div><img src="https://img.pngio.com/technology-png-images-image-free-download-technology-png-518_400.png" height="200px" width="200px"/></div>
+            <div><img src="https://www.pngarts.com/files/3/Computer-Technology-PNG-Download-Image.png" height="200px" width="200px"/></div>
+            <div><img src="https://www.pngmart.com/files/4/Technology-PNG-HD.png" height="200px" width="200px"/></div>
+          </div>
+      </div>
+      <div class=" bg-darkblue" style="height:75px;">
+    </div>
+    <div class="bg-littledark pt-3 pb-5">
+    <div class="d-flex justify-content-center">
+        <h4 class="text-center pl-2" style="color:#fff"> Looking for PayPal Business Solutions 
+            Whether you are freelancer or a business we are here to support you.</h4>
+    </div>
+        <div class="d-flex justify-content-center pt-1"  ><button class="btn btn-light">PayPal For Buisness</button></div> 
+    </div>
+      <!-- Section2 Body -->
+    <div class="row  pb-8 " >
+        <div class="col-md-1"></div>
+     <div class="col-md-5 pt-8 ml-3">
+     <h1 style="color:#00A8EA;">The world is your shopping</h1>
+     <h1 style="color:#00A8EA;">mall</h1>
+     <div class="row mt-5 ml-2">
+        <div class="d-flex justify-content-center "  ><button class="btn btnSignUp btn-outline-info"> Shop Now  </button></div> 
+     </div>
+     </div>
+     <div class="col-md-5 pt-3">
+        <div><img src="https://www.paypalobjects.com/marketing/web/in/home/everyday-essentials/shopping.png" height="400px" width="400px"/></div>
+     </div>
+     <div class="col-md-1"></div>
+    </div>
+<!-- Section3 Body -->
+    <div class="row bg-lighter">
+        <div class="col-md-1"></div>
+       <div class="col-md-5">
+        <img src="https://www.paypalobjects.com/marketing/web/in/home/everyday-essentials/fly.gif" height="400px" width="600px"/></div>
+
+        
+        <div class="col-md-5 ml-5 mt-5">
+          <h1 style="color:#00A8EA;">Fly through checkout securely</h1>
+        <div class="row ">
+           <div class="d-flex justify-content-center pt-8 ml-5 "  ><button class="btn btnSignUp btn-outline-info"> checkout with one Touch </button></div> 
+        </div></div>   <div class="col-md-1"></div>
+    </div>
+    <!-- Section4 Body -->
+    <div class="row  pb-8 " >
+        <div class="col-md-1"></div>
+     <div class="col-md-5 pt-8 ml-3">
+     <h1 style="color:#00A8EA;">Returning a purchase? Get</h1>
+     <h1 style="color:#00A8EA;">shipping refunded.</h1>
+     <div class="row mt-5 ml-2">
+        <div class="d-flex justify-content-center "  ><button class="btn btnSignUp btn-outline-info"> Learn More </button></div> 
+     </div>
+     </div>
+     <div class="col-md-5 pt-3">
+        <div><img src="https://www.paypalobjects.com/marketing/web/au/home/treatment-acquisition/Dress-FreeReturnShipping.gif" height="400px" width="600px"/></div>
+     </div>
+     <div class="col-md-1"></div>
+    </div>  
+    <!-- Section5 Body -->
+    <div class="row bg-lighter">
+        <div class="col-md-1"></div>
+       <div class="col-md-5 text-right pt-2">
+        <img src="https://www.paypalobjects.com/marketing/web/in/home/everyday-essentials/pay.png" height="400px" width="400px"/></div>
+
+        
+        <div class="col-md-5  mt-5">
+          <h1 style="color:#00A8EA;">Pay it the way you want</h1>
+        <div class="row ">
+           <div class="d-flex justify-content-center pt-8 ml-5 "  ><button class="btn btnSignUp btn-outline-info"> Link Your Preferred Card</button></div> 
+        </div></div>   <div class="col-md-1"></div>
+    </div>
+    <!-- Section6 Body -->
+    <div class="row  pb-8 " >
+        <div class="col-md-1"></div>
+     <div class="col-md-5 pt-8 ml-3 text-center">
+     <h1 style="color:#00A8EA;">Shop online with confidence</h1>
+    
+     <div class="row mt-5 ml-2">
+        <div class="d-flex justify-content-center ml-5"  ><button class="btn btnSignUp btn-outline-info"> Find Out More </button></div> 
+     </div>
+     </div>
+     <div class="col-md-5 pt-3">
+        <div><img src="https://www.paypalobjects.com/marketing/web/in/home/everyday-essentials/confidence.png" height="400px" width="400px"/></div>
+     </div>
+     <div class="col-md-1"></div>
+    </div>
+    <!-- Section7 Body -->
+    <div class=" bg-lighter pt-5">
+        <div class="d-flex justify-content-center">
+            <h1 class="text-center pl-2" style="color:#00A8EA"> Checkout at millions of brands you love</h1>
+        </div>
+        <div class="d-flex justify-content-center  pt-5 pb-5">
+            <div class="ml-2 pt-2" ><img src="https://www.paypalobjects.com/marketing/web/sg/home/everyday-essentials/grey-logo/asos_v3a.png" height="25px" width="100px"/></div>
+            <div class="ml-2"><img src="https://www.paypalobjects.com/marketing/web/in/home/everyday-essentials/grey-logos/udemy_v1.png" height="50px" width="100px"/></div>
+            <div class="ml-2"><img src="https://www.paypalobjects.com/marketing/web/in/home/everyday-essentials/grey-logos/banggood_v1.png" height="50px" width="100px"/></div>
+          </div>
+    </div>
+ <div class="bg-home pt-8 pb-3">
+  <div class="d-flex justify-content-center">
+    <h1 class="text-center pl-2" style="color:#fff"> Join the global community of PayPal users who are sending,</h1>
+    
+</div>
+<div class="d-flex justify-content-center">
+  
+  <h1 class="text-center pl-2" style="color:#fff"> spending and receiving money securely every day.</h1>
+</div>
+<div class="d-flex justify-content-center pt-3">
+  <button class="btn btn-light">SignUp Now</button>
+  
+</div>
+<div class="d-flex justify-content-center pt-3">
+ <span class="dynamic_label ml-2 mr-2" id ="dynamicNumber1">1</span>
+ <span class="dynamic_label ml-2 mr-2" id ="dynamicNumber2">7</span>
+ <span class="dynamic_label ml-2 mr-2" id ="dynamicNumber3">8</span>
+ <span class="dynamic_label ml-2 mr-2" id ="dynamicNumber4">18</span>
+ <span class="dynamic_label ml-2 mr-2" id ="dynamicNumber5">9</span>
+ <span class="dynamic_label ml-2 mr-2" id ="dynamicNumber6">0</span>
+ <span class="dynamic_label ml-2 mr-2" id ="dynamicNumber7">18</span>
+  
+</div>
+ </div>
+ <!-- Footer -->
+ <div class="bg-light pt-8 pl-8 pb-5" style="font-weight: 600;">
+  <div>  Terms &amp; Conditions:<br> <sup>*</sup> Buyer Protection is available on eligible purchases only. 180 day time limit and other terms apply.<br><sup>**</sup> Subject to issuer’s reward programme terms and conditions.<br><sup>***</sup> Activation required. Up to USD$15 / INR500 per return and upto 12 returns each year (1 per month).</div>
+  <div class=" pt-5">
+    <div class="row">
+     <div class="col-md-11">
+       <ul class="list-group list-group-horizontal">
+         <li class="list-group-item"><a href="#" style="color:black">Help</a></li> 
+         <li class="list-group-item"><a href="#"  style="color:black">Contact</a></li>
+         <li class="list-group-item"><a href="#"  style="color:black">FeesSecurity</a></li>
+         <li class="list-group-item"><a href="#"  style="color:black">ShopRefer</a></li>
+         <li class="list-group-item"><a href="#"  style="color:black">Earn</a></li>
+
+       </ul>
+
+     </div>
+     <div class="col-md-1 pt-3">
+       <a href="#"><img src ="https://upload.wikimedia.org/wikipedia/en/thumb/4/41/Flag_of_India.svg/1350px-Flag_of_India.svg.png" height="25px" width="30px"/>
+       </a>
+     </div>
+
+    </div>
+    <hr/>
+    <div class="row">
+      <div class="col-md-9">
+        <ul class="list-group list-group-horizontal">
+          <li class="list-group-item text-monospace"><a href="#" style="color:black;font-weight: 400; ">About</a></li> 
+          <li class="list-group-item text-monospace"><a href="#"  style="color:black; font-weight: 400;">Blog</a></li>
+          <li class="list-group-item text-monospace"><a href="#"  style="color:black; font-weight: 400;">Jobs</a></li>
+          <li class="list-group-item text-monospace"><a href="#"  style="color:black; font-weight: 400;">Sitemap</a></li>
+          <li class="list-group-item text-monospace"><a href="#"  style="color:black; font-weight: 400;">Developers</a></li>
+          <li class="list-group-item text-monospace" ><a href="#"  style="color:black; font-weight: 400;">Partners</a></li>
+          <li class="list-group-item text-monospace"><a href="#"  style="color:black; font-weight: 400;">Newsroom</a></li>
+ 
+        </ul>
+ 
+      </div>
+      <div class="col-md-3 ">
+        <ul class="list-group list-group-horizontal">
+        <li class="list-group-item text-monospace"><a href="#"  style="color:black; font-weight: 400;">© 1999–2020</a></li>
+        <li class="list-group-item text-monospace"><a href="#"  style="color:black; font-weight: 400;">Privacy</a></li>
+        <li class="list-group-item text-monospace"><a href="#"  style="color:black; font-weight: 400;">Legal</a></li>
+        </ul>
+      </div>
+ 
+     </div>
+     <div class="pt-3 font-weight-normal">
+      PayPal Services in India are provided by PayPal Payments Private Limited (CIN U74990MH2009PTC194653). Users are advised to read the <a href="#">terms and conditions</a> carefully.
+      
+     </div>
+     <div class="pt-3 font-weight-normal">
+      When you visit or interact with our sites, services, applications, tools or messaging, we or our authorised service providers may use cookies, web beacons, and other similar technologies for storing information to help provide you with a better, 
+      faster and safer experience and for advertising purposes. Learn more <a href="#">here</a>.
+     </div>
+  </div>
+  </div>
+</html>
